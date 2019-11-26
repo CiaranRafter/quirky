@@ -18,7 +18,8 @@ def draw_bootstrap_replicates(data, func, size = 1):
     return bs_replicates
     
 if __name__ == '__main__':
-    #this is the mainguard.
+    #this is the mainguard. The mainguard contains work particular to my project and allows just the bs_replicates function 
+    #to be imported by other users 
     
     df = pd.read_csv("gandhi_et_al_bouts.csv")
     #import the data. this data was modified beforehand in a spreadsheet for coding purposes.
